@@ -1,0 +1,86 @@
+@media (max-width: 1185px) {
+  .v-aviata .v-search {
+    width: 910px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .v-aviata .v-flights {
+    width: 720px;
+  }
+  .v-aviata .v-filtration {
+    width: 180px;
+  }
+  .v-flights-item__info .airliner {
+    margin-left: 10px;
+  }
+  .v-aviata .grop {
+    width: 910px;
+    margin: auto;
+    display: flex;
+  }
+  .v-flights-item__choose .button_choose {
+    width: 165px;
+  }
+}
+
+@media (max-width: 921px) {
+  .v-search img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .v-aviata .v-search {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .v-aviata .v-filtration {
+    width: 100%;
+  }
+  .v-aviata .grop {
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .v-aviata .v-flights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .v-flights-item {
+      height: 350px;
+      width: 240px;
+      margin-bottom: 102px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px;
+    }
+    .v-flights-item__info {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+    }
+    .airliner {
+      margin: 0;
+      margin-top: 10px;
+    }
+    .date {
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 8px;
+    }
+    .flight-time {
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .v-flights-item__choose {
+      padding-bottom: 13px;
+    }
+  }
+}
+
